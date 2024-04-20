@@ -1,7 +1,7 @@
-url: https://$AZURE_ADDRESS
+url: $AZURE_ADDRESS
 status: down
-code: 403
-responseTime: 48
-lastUpdated: 2024-04-20T06:35:25.697Z
+code: 0
+responseTime: 0
+lastUpdated: 2024-04-20T06:50:53.852Z
 startTime: 2024-04-20T06:35:25.629Z
 generator: Upptime <https://github.com/upptime/upptime>
