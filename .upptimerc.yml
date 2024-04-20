@@ -3,18 +3,30 @@ owner: SphenHe # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
+  - name: Status
+    url: https://status.sphenhe.me
+  - name: Blog
+    url: https://blog.sphenhe.me
+  - name: Pastebin
+    url: https://pastebin.sphenhe.me
+  # - name: Proxy
+  #   url: https://proxy.sphenhe.me
+  - name: Zoo(deprecated)
+    url: https://monkey.sphenhe.me
+  - name: Azure Server v4
+    url: https://$AZURE_ADDRESS
+    ipv4: true
+  - name: Self Hosted Server v4
+    url: https://$SERVER_ADDRESS
+    ipv4: true
+  - name: Self Hosted Server v6
+    url: https://$SERVER_ADDRESS
+    ipv6: true
+  - name: DDNS Dependent Server v4
+    url: http://ipv4.icanhazip.com
+    ipv4: true
+  - name: DDNS Dependent Server v6
+    url: http://ipv6.icanhazip.com
     ipv6: true
 
 status-website:
