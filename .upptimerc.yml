@@ -14,13 +14,18 @@ sites:
   - name: Zoo(deprecated)
     url: https://monkey.sphenhe.me
   - name: Azure Server v4
-    url: https://$AZURE_ADDRESS
-    ipv4: true
+    check: "tcp-ping"
+    url: $AZURE_ADDRESS
+    port: $AZURE_PORT
   - name: Self Hosted Server v4
+    check: "tcp-ping"
     url: https://$SERVER_ADDRESS
+    port: $SERVER_PORT
     ipv4: true
   - name: Self Hosted Server v6
+    check: "tcp-ping"
     url: https://$SERVER_ADDRESS
+    port: $SERVER_PORT
     ipv6: true
   - name: DDNS Dependent Server v4
     url: http://ipv4.icanhazip.com
@@ -71,7 +76,7 @@ i18n:
   ms: 毫秒
   loading: 加载中
   navGitHub: GitHub
-  footer: gd1214b保留所有权利。 Copyright © 2021 gd1214b. All Rights Reserved.
+  footer: gd1214b保留所有权利。 Copyright © 2024 gd1214b. All Rights Reserved.
   rateLimitExceededTitle: 超出速率限制
   rateLimitExceededIntro: 您已超过一小时内可以执行的请求数，因此您必须等待才能再次访问此网站。或者，您可以添加 GitHub 个人访问令牌以继续使用本网站。
   rateLimitExceededWhatDoesErrorMean: 这个错误是什么意思？本网站使用 GitHub API 访问有关我们网站状态的实时数据。默认情况下，GitHub 允许每个 IP 地址每小时 60 个请求，您已经消耗了这些请求。
