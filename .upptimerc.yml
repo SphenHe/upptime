@@ -1,6 +1,7 @@
 # Change these first
 owner: SphenHe # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
+runner: "[self-hosted, Linux, X64]"
 
 sites:
   - name: Blog
@@ -57,5 +58,3 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
-
-runner: "[self-hosted, Linux, X64]"
