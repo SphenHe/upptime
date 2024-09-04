@@ -3,17 +3,40 @@ owner: SphenHe # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Blog
+    url: https://blog.sphenhe.me
+  - name: Caddy
+    url: https://sphenhe.me
+  - name: Fireflyiii
+    url: https://money.sphenhe.me
+  - name: MonkeyFile
+    url: https://monkey.sphenhe.me
+  - name: Pastebin
+    url: https://pastebin.sphenhe.me
+  - name: Seafile
+    url: https://seafile.sphenhe.me
+  - name: TsinghuaMemes
+    url: https://memes.sphenhe.me
+  - name: Vaultwarden
+    url: https://vault.sphenhe.me
+  - name: Azure-VPS-IPv4
+    url: ${{ secrets.AZURE_VPS_URL }}
+    port: ${{ secrets.AZURE_VPS_SSH_PORT }}
+    check: "tcp-ping"
+    ipv6: false
+  - name: Azure-VPS-IPv6
+    url: ${{ secrets.AZURE_VPS_URL }}
+    port: ${{ secrets.AZURE_VPS_SSH_PORT }}
+    check: "tcp-ping"
+    ipv6: true
+  - name: Tsinghua-VPS-IPv4
+    url: ${{ secrets.TSINGHUA_VPS_URL }}
+    port: ${{ secrets.TSINGHUA_VPS_SSH_PORT }}
+    check: "tcp-ping"
+    ipv6: false
+  - name: Tsinghua-VPS-IPv6
+    url: ${{ secrets.TSINGHUA_VPS_URL }}
+    port: ${{ secrets.TSINGHUA_VPS_SSH_PORT }}
     check: "tcp-ping"
     ipv6: true
 
