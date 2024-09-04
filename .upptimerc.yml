@@ -8,6 +8,8 @@ sites:
     url: https://blog.sphenhe.me
   - name: Caddy
     url: https://sphenhe.me
+  - name: Deeplx
+    url: $DEEPLX_URL
   - name: Fireflyiii
     url: https://money.sphenhe.me
   - name: MonkeyFile
