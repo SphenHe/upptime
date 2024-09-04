@@ -28,7 +28,6 @@ sites:
     url: $TSINGHUA_VPS_URL
     port: $TSINGHUA_VPS_SSH_PORT
     check: "tcp-ping"
-    ipv6: false
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
