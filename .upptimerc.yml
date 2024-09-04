@@ -1,7 +1,7 @@
 # Change these first
 owner: SphenHe # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
-runner: "[self-hosted, Linux, X64, azure]" # The type of runner you're using
+runner: "[self-hosted, Linux, X64]" # The type of runner you're using
 
 sites:
   - name: Blog
