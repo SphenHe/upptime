@@ -58,4 +58,4 @@ status-website:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 
-runner: Azure-Debian-1C1G
+runner: "[self-hosted, Linux, X64]"
