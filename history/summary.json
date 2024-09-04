@@ -16,7 +16,7 @@
     "timeMonth": 141,
     "timeYear": 141,
     "dailyMinutesDown": {
-      "2024-09-04": 214
+      "2024-09-04": 235
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://sphenhe.me",
     "icon": "https://icons.duckduckgo.com/ip3/sphenhe.me.ico",
     "slug": "caddy",
-    "status": "down",
-    "uptime": "93.71%",
-    "uptimeDay": "93.71%",
-    "uptimeWeek": "93.71%",
-    "uptimeMonth": "93.71%",
-    "uptimeYear": "93.71%",
-    "time": 532,
-    "timeDay": 532,
-    "timeWeek": 532,
-    "timeMonth": 532,
-    "timeYear": 532,
+    "status": "up",
+    "uptime": "85.30%",
+    "uptimeDay": "85.30%",
+    "uptimeWeek": "85.30%",
+    "uptimeMonth": "85.30%",
+    "uptimeYear": "85.30%",
+    "time": 508,
+    "timeDay": 508,
+    "timeWeek": 508,
+    "timeMonth": 508,
+    "timeYear": 508,
     "dailyMinutesDown": {
-      "2024-09-04": 13
+      "2024-09-04": 35
     }
   },
   {
@@ -56,7 +56,7 @@
     "timeMonth": 140,
     "timeYear": 140,
     "dailyMinutesDown": {
-      "2024-09-04": 214
+      "2024-09-04": 235
     }
   },
   {
@@ -94,7 +94,7 @@
     "timeMonth": 156,
     "timeYear": 156,
     "dailyMinutesDown": {
-      "2024-09-04": 214
+      "2024-09-04": 235
     }
   },
   {
@@ -114,7 +114,7 @@
     "timeMonth": 77,
     "timeYear": 77,
     "dailyMinutesDown": {
-      "2024-09-04": 214
+      "2024-09-04": 235
     }
   },
   {
@@ -152,7 +152,7 @@
     "timeMonth": 74,
     "timeYear": 74,
     "dailyMinutesDown": {
-      "2024-09-04": 214
+      "2024-09-04": 235
     }
   },
   {
