@@ -1,7 +1,0 @@
-url: ${{ secrets.TSINGHUA_VPS_URL }}
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-09-04T02:53:44.773Z
-startTime: 2024-09-04T02:53:44.770Z
-generator: Upptime <https://github.com/upptime/upptime>
