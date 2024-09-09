@@ -14,6 +14,8 @@ sites:
     url: https://money.sphenhe.me
   - name: MonkeyFile
     url: https://monkey.sphenhe.me
+  - name: Nuclear21Public-Magazine
+    url: https://magazine.sphenhe.me
   - name: Pastebin
     url: https://pastebin.sphenhe.me
   - name: Seafile
