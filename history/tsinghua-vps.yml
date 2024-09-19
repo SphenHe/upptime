@@ -1,7 +1,7 @@
 url: $TSINGHUA_VPS_URL
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-09-19T11:49:41.780Z
+status: up
+code: 200
+responseTime: 261
+lastUpdated: 2024-09-19T13:21:07.478Z
 startTime: 2024-09-04T06:13:54.376Z
 generator: Upptime <https://github.com/upptime/upptime>
