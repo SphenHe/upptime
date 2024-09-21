@@ -1,7 +1,7 @@
 url: https://vault.sphenhe.me
-status: up
-code: 200
-responseTime: 709
-lastUpdated: 2024-09-21T15:07:43.546Z
+status: down
+code: 502
+responseTime: 870
+lastUpdated: 2024-09-21T15:40:33.041Z
 startTime: 2024-09-04T02:53:37.136Z
 generator: Upptime <https://github.com/upptime/upptime>
