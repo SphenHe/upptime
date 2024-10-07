@@ -1,7 +1,7 @@
 url: https://seafile.sphenhe.me
-status: up
-code: 200
-responseTime: 1069
-lastUpdated: 2024-10-07T10:31:35.464Z
+status: down
+code: 502
+responseTime: 15843
+lastUpdated: 2024-10-07T10:49:36.158Z
 startTime: 2024-09-04T02:53:32.050Z
 generator: Upptime <https://github.com/upptime/upptime>
