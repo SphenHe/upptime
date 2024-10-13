@@ -126,19 +126,19 @@
     "url": "https://magazine.sphenhe.me",
     "icon": "https://icons.duckduckgo.com/ip3/magazine.sphenhe.me.ico",
     "slug": "nuclear21-public-magazine",
-    "status": "up",
-    "uptime": "99.58%",
-    "uptimeDay": "85.77%",
-    "uptimeWeek": "97.97%",
-    "uptimeMonth": "99.53%",
-    "uptimeYear": "99.58%",
-    "time": 332,
-    "timeDay": 462,
-    "timeWeek": 401,
-    "timeMonth": 302,
-    "timeYear": 332,
+    "status": "down",
+    "uptime": "99.60%",
+    "uptimeDay": "86.16%",
+    "uptimeWeek": "98.02%",
+    "uptimeMonth": "99.54%",
+    "uptimeYear": "99.60%",
+    "time": 333,
+    "timeDay": 455,
+    "timeWeek": 399,
+    "timeMonth": 303,
+    "timeYear": 333,
     "dailyMinutesDown": {
-      "2024-10-13": 206
+      "2024-10-13": 200
     }
   },
   {
@@ -207,18 +207,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/memes.sphenhe.me.ico",
     "slug": "tsinghua-memes",
     "status": "down",
-    "uptime": "99.74%",
-    "uptimeDay": "89.52%",
-    "uptimeWeek": "98.50%",
-    "uptimeMonth": "99.66%",
-    "uptimeYear": "99.74%",
+    "uptime": "99.73%",
+    "uptimeDay": "89.11%",
+    "uptimeWeek": "98.44%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.73%",
     "time": 363,
     "timeDay": 366,
     "timeWeek": 305,
     "timeMonth": 289,
     "timeYear": 363,
     "dailyMinutesDown": {
-      "2024-10-13": 150
+      "2024-10-13": 156
     }
   },
   {
