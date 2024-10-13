@@ -47,11 +47,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "deeplx",
     "status": "up",
-    "uptime": "95.76%",
+    "uptime": "95.77%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "95.34%",
-    "uptimeYear": "95.76%",
+    "uptimeYear": "95.77%",
     "time": 646,
     "timeDay": 773,
     "timeWeek": 610,
@@ -126,19 +126,19 @@
     "url": "https://magazine.sphenhe.me",
     "icon": "https://icons.duckduckgo.com/ip3/magazine.sphenhe.me.ico",
     "slug": "nuclear21-public-magazine",
-    "status": "down",
-    "uptime": "99.50%",
-    "uptimeDay": "82.82%",
-    "uptimeWeek": "97.55%",
-    "uptimeMonth": "99.44%",
-    "uptimeYear": "99.50%",
+    "status": "up",
+    "uptime": "99.49%",
+    "uptimeDay": "82.45%",
+    "uptimeWeek": "97.49%",
+    "uptimeMonth": "99.42%",
+    "uptimeYear": "99.49%",
     "time": 336,
-    "timeDay": 405,
-    "timeWeek": 379,
-    "timeMonth": 313,
+    "timeDay": 402,
+    "timeWeek": 377,
+    "timeMonth": 314,
     "timeYear": 336,
     "dailyMinutesDown": {
-      "2024-10-13": 248
+      "2024-10-13": 254
     }
   },
   {
@@ -207,18 +207,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/memes.sphenhe.me.ico",
     "slug": "tsinghua-memes",
     "status": "down",
-    "uptime": "99.40%",
-    "uptimeDay": "75.97%",
-    "uptimeWeek": "96.57%",
-    "uptimeMonth": "99.21%",
-    "uptimeYear": "99.40%",
+    "uptime": "99.39%",
+    "uptimeDay": "75.58%",
+    "uptimeWeek": "96.51%",
+    "uptimeMonth": "99.20%",
+    "uptimeYear": "99.39%",
     "time": 355,
     "timeDay": 339,
     "timeWeek": 298,
     "timeMonth": 287,
     "timeYear": 355,
     "dailyMinutesDown": {
-      "2024-10-13": 346
+      "2024-10-13": 352
     }
   },
   {
