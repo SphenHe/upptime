@@ -4,31 +4,33 @@ repo: upptime # The name of this repository
 # runner: "[self-hosted, Linux, X64]" # The type of runner you're using
 
 sites:
-  - name: Blog
-    url: https://blog.sphenhe.me
-  - name: Caddy
+  - name: Service | Caddy
     url: https://sphenhe.me
-  - name: Deeplx
+  - name: Service | Deeplx
     url: $DEEPLX_URL
-  - name: Fireflyiii
+  - name: Service | HedgeDoc
+    url: https://doc.sphenhe.me
+  - name: Service | Fireflyiii
     url: https://money.sphenhe.me
-  - name: MonkeyFile
-    url: https://monkey.sphenhe.me
-  - name: Nuclear21Public-Magazine
-    url: https://magazine.sphenhe.me
-  - name: Pastebin
+  - name: Service | Pastebin
     url: https://pastebin.sphenhe.me
-  - name: Seafile
+  - name: Service | Seafile
     url: https://seafile.sphenhe.me
-  - name: TsinghuaMemes
-    url: https://memes.sphenhe.me
-  - name: Vaultwarden
+  - name: Service | Vaultwarden
     url: https://vault.sphenhe.me
-  - name: Azure-VPS
+  - name: Pages | Blog
+    url: https://blog.sphenhe.me
+  - name: Pages | MonkeyFile
+    url: https://monkey.sphenhe.me
+  - name: Pages | Nuclear21Public-Magazine
+    url: https://magazine.sphenhe.me
+  - name: Pages | TsinghuaMemes
+    url: https://memes.sphenhe.me
+  - name: Server | Azure-VPS
     url: $AZURE_VPS_URL
     port: $AZURE_VPS_SSH_PORT
     check: "tcp-ping"
-  - name: Tsinghua-VPS
+  - name: Server | Tsinghua-VPS
     url: $TSINGHUA_VPS_URL
     port: $TSINGHUA_VPS_SSH_PORT
     check: "tcp-ping"
