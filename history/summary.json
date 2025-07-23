@@ -34,16 +34,16 @@
     "url": "$DEEPLX_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "service-deeplx",
-    "status": "up",
-    "uptime": "98.41%",
-    "uptimeDay": "66.18%",
-    "uptimeWeek": "68.43%",
+    "status": "down",
+    "uptime": "98.43%",
+    "uptimeDay": "66.80%",
+    "uptimeWeek": "68.45%",
     "uptimeMonth": "90.63%",
-    "uptimeYear": "98.41%",
+    "uptimeYear": "98.43%",
     "time": 638,
-    "timeDay": 542,
-    "timeWeek": 570,
-    "timeMonth": 599,
+    "timeDay": 554,
+    "timeWeek": 573,
+    "timeMonth": 600,
     "timeYear": 638,
     "dailyMinutesDown": {
       "2025-07-23": 300,
@@ -66,7 +66,7 @@
       "2025-05-20": 107,
       "2025-04-14": 25,
       "2025-04-13": 22,
-      "2025-03-29": 103
+      "2025-03-29": 47
     }
   },
   {
@@ -74,16 +74,16 @@
     "url": "https://doc.sphenhe.me",
     "icon": "https://icons.duckduckgo.com/ip3/doc.sphenhe.me.ico",
     "slug": "service-hedge-doc",
-    "status": "up",
-    "uptime": "97.38%",
-    "uptimeDay": "66.57%",
+    "status": "down",
+    "uptime": "98.15%",
+    "uptimeDay": "67.18%",
     "uptimeWeek": "67.81%",
     "uptimeMonth": "90.48%",
-    "uptimeYear": "97.38%",
+    "uptimeYear": "98.15%",
     "time": 677,
-    "timeDay": 568,
-    "timeWeek": 586,
-    "timeMonth": 602,
+    "timeDay": 575,
+    "timeWeek": 587,
+    "timeMonth": 603,
     "timeYear": 677,
     "dailyMinutesDown": {
       "2025-07-23": 300,
@@ -108,10 +108,7 @@
       "2025-04-13": 22,
       "2025-03-29": 124,
       "2025-03-27": 243,
-      "2025-03-26": 588,
-      "2025-03-22": 371,
-      "2025-03-21": 1440,
-      "2025-03-20": 880
+      "2025-03-26": 588
     }
   },
   {
@@ -281,16 +278,16 @@
     "url": "https://vault.sphenhe.me",
     "icon": "https://icons.duckduckgo.com/ip3/vault.sphenhe.me.ico",
     "slug": "service-vaultwarden",
-    "status": "up",
-    "uptime": "93.90%",
-    "uptimeDay": "65.16%",
-    "uptimeWeek": "68.10%",
+    "status": "down",
+    "uptime": "93.91%",
+    "uptimeDay": "65.77%",
+    "uptimeWeek": "68.12%",
     "uptimeMonth": "90.55%",
-    "uptimeYear": "93.90%",
+    "uptimeYear": "93.91%",
     "time": 593,
     "timeDay": 754,
-    "timeWeek": 562,
-    "timeMonth": 570,
+    "timeWeek": 565,
+    "timeMonth": 571,
     "timeYear": 593,
     "dailyMinutesDown": {
       "2025-07-23": 314,
@@ -328,8 +325,7 @@
       "2025-02-26": 1440,
       "2025-02-25": 1440,
       "2025-02-24": 1440,
-      "2025-02-23": 887,
-      "2025-02-17": 20
+      "2025-02-23": 887
     }
   },
   {
@@ -349,7 +345,7 @@
     "timeMonth": 126,
     "timeYear": 149,
     "dailyMinutesDown": {
-      "2025-07-23": 1065,
+      "2025-07-23": 1074,
       "2025-07-22": 1440,
       "2025-07-21": 1440,
       "2025-07-20": 1440,
