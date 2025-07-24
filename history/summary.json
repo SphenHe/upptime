@@ -36,17 +36,17 @@
     "slug": "service-deeplx",
     "status": "up",
     "uptime": "98.41%",
-    "uptimeDay": "67.42%",
-    "uptimeWeek": "67.76%",
-    "uptimeMonth": "90.25%",
+    "uptimeDay": "71.94%",
+    "uptimeWeek": "67.82%",
+    "uptimeMonth": "90.26%",
     "uptimeYear": "98.41%",
     "time": 636,
-    "timeDay": 574,
+    "timeDay": 563,
     "timeWeek": 574,
     "timeMonth": 598,
     "timeYear": 636,
     "dailyMinutesDown": {
-      "2025-07-23": 466,
+      "2025-07-23": 460,
       "2025-07-22": 560,
       "2025-07-21": 775,
       "2025-07-20": 366,
@@ -63,7 +63,8 @@
       "2025-05-27": 89,
       "2025-05-26": 158,
       "2025-05-21": 85,
-      "2025-05-20": 107
+      "2025-05-20": 107,
+      "2025-04-14": 25
     }
   },
   {
@@ -73,17 +74,17 @@
     "slug": "service-hedge-doc",
     "status": "up",
     "uptime": "98.36%",
-    "uptimeDay": "65.72%",
-    "uptimeWeek": "66.79%",
-    "uptimeMonth": "90.05%",
+    "uptimeDay": "70.23%",
+    "uptimeWeek": "67.52%",
+    "uptimeMonth": "90.06%",
     "uptimeYear": "98.36%",
     "time": 674,
-    "timeDay": 561,
-    "timeWeek": 589,
+    "timeDay": 546,
+    "timeWeek": 588,
     "timeMonth": 601,
     "timeYear": 674,
     "dailyMinutesDown": {
-      "2025-07-23": 490,
+      "2025-07-23": 484,
       "2025-07-22": 542,
       "2025-07-21": 776,
       "2025-07-20": 396,
@@ -103,7 +104,7 @@
       "2025-05-20": 105,
       "2025-04-14": 25,
       "2025-04-13": 22,
-      "2025-03-29": 37
+      "2025-03-29": 63
     }
   },
   {
@@ -274,18 +275,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/vault.sphenhe.me.ico",
     "slug": "service-vaultwarden",
     "status": "up",
-    "uptime": "98.34%",
-    "uptimeDay": "66.42%",
-    "uptimeWeek": "67.24%",
-    "uptimeMonth": "90.17%",
-    "uptimeYear": "98.34%",
+    "uptime": "98.11%",
+    "uptimeDay": "70.93%",
+    "uptimeWeek": "67.30%",
+    "uptimeMonth": "90.18%",
+    "uptimeYear": "98.11%",
     "time": 591,
-    "timeDay": 537,
+    "timeDay": 524,
     "timeWeek": 559,
     "timeMonth": 568,
     "timeYear": 591,
     "dailyMinutesDown": {
-      "2025-07-23": 480,
+      "2025-07-23": 474,
       "2025-07-22": 561,
       "2025-07-21": 805,
       "2025-07-20": 389,
@@ -306,7 +307,8 @@
       "2025-04-14": 25,
       "2025-04-13": 22,
       "2025-03-29": 135,
-      "2025-03-27": 43
+      "2025-03-27": 243,
+      "2025-03-26": 587
     }
   },
   {
@@ -326,7 +328,8 @@
     "timeMonth": 129,
     "timeYear": 151,
     "dailyMinutesDown": {
-      "2025-07-23": 1437,
+      "2025-07-24": 101,
+      "2025-07-23": 1440,
       "2025-07-22": 1440,
       "2025-07-21": 1440,
       "2025-07-20": 1440,
