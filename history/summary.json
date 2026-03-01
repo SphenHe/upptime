@@ -5,18 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/sphenhe.me.ico",
     "slug": "service-caddy",
     "status": "up",
-    "uptime": "98.17%",
-    "uptimeDay": "99.16%",
-    "uptimeWeek": "99.88%",
-    "uptimeMonth": "98.60%",
+    "uptime": "98.18%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "98.63%",
     "uptimeYear": "99.82%",
     "time": 734,
     "timeDay": 1799,
     "timeWeek": 976,
-    "timeMonth": 831,
+    "timeMonth": 814,
     "timeYear": 749,
     "dailyMinutesDown": {
-      "2026-02-28": 12,
       "2026-02-08": 349,
       "2026-02-07": 251,
       "2026-01-01": 111,
@@ -33,13 +32,13 @@
     "status": "up",
     "uptime": "78.01%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "39.42%",
-    "uptimeMonth": "8.17%",
+    "uptimeWeek": "40.81%",
+    "uptimeMonth": "17.35%",
     "uptimeYear": "72.14%",
     "time": 612,
     "timeDay": 593,
     "timeWeek": 391,
-    "timeMonth": 192,
+    "timeMonth": 203,
     "timeYear": 604,
     "dailyMinutesDown": {
       "2026-02-26": 336,
@@ -171,13 +170,13 @@
     "status": "up",
     "uptime": "77.97%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "39.42%",
-    "uptimeMonth": "8.17%",
+    "uptimeWeek": "40.81%",
+    "uptimeMonth": "17.35%",
     "uptimeYear": "72.09%",
     "time": 649,
     "timeDay": 576,
     "timeWeek": 403,
-    "timeMonth": 186,
+    "timeMonth": 197,
     "timeYear": 617,
     "dailyMinutesDown": {
       "2026-02-26": 336,
@@ -311,13 +310,13 @@
     "status": "up",
     "uptime": "74.38%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "39.42%",
-    "uptimeMonth": "8.17%",
-    "uptimeYear": "71.06%",
+    "uptimeWeek": "40.81%",
+    "uptimeMonth": "17.35%",
+    "uptimeYear": "71.08%",
     "time": 973,
     "timeDay": 884,
     "timeWeek": 598,
-    "timeMonth": 238,
+    "timeMonth": 254,
     "timeYear": 925,
     "dailyMinutesDown": {
       "2026-02-26": 336,
@@ -453,8 +452,7 @@
       "2025-03-20": 880,
       "2025-03-12": 158,
       "2025-03-03": 1000,
-      "2025-03-02": 1440,
-      "2025-03-01": 1440
+      "2025-03-02": 1440
     }
   },
   {
@@ -471,7 +469,7 @@
     "time": 256,
     "timeDay": 172,
     "timeWeek": 203,
-    "timeMonth": 220,
+    "timeMonth": 224,
     "timeYear": 266,
     "dailyMinutesDown": {
       "2026-01-27": 21,
@@ -487,13 +485,13 @@
     "status": "up",
     "uptime": "84.14%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "78.75%",
-    "uptimeMonth": "17.22%",
-    "uptimeYear": "85.28%",
+    "uptimeWeek": "80.14%",
+    "uptimeMonth": "26.40%",
+    "uptimeYear": "85.30%",
     "time": 1144,
     "timeDay": 907,
     "timeWeek": 1446,
-    "timeMonth": 427,
+    "timeMonth": 471,
     "timeYear": 1198,
     "dailyMinutesDown": {
       "2026-02-23": 691,
@@ -568,8 +566,7 @@
       "2025-03-05": 1440,
       "2025-03-04": 1440,
       "2025-03-03": 1440,
-      "2025-03-02": 1440,
-      "2025-03-01": 1440
+      "2025-03-02": 1440
     }
   },
   {
@@ -586,7 +583,7 @@
     "time": 614,
     "timeDay": 579,
     "timeWeek": 609,
-    "timeMonth": 662,
+    "timeMonth": 653,
     "timeYear": 619,
     "dailyMinutesDown": {
       "2026-02-08": 349,
@@ -624,15 +621,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/blog.sphenhe.me.ico",
     "slug": "pages-blog",
     "status": "down",
-    "uptime": "19.68%",
+    "uptime": "19.70%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "20.84%",
+    "uptimeYear": "20.87%",
     "time": 146,
     "timeDay": 134,
     "timeWeek": 129,
-    "timeMonth": 158,
+    "timeMonth": 159,
     "timeYear": 146,
     "dailyMinutesDown": {
       "2026-01-03": 972,
@@ -923,8 +920,7 @@
       "2025-03-05": 1440,
       "2025-03-04": 1440,
       "2025-03-03": 1440,
-      "2025-03-02": 1440,
-      "2025-03-01": 1440
+      "2025-03-02": 1440
     }
   },
   {
@@ -941,7 +937,7 @@
     "time": 352,
     "timeDay": 193,
     "timeWeek": 287,
-    "timeMonth": 273,
+    "timeMonth": 272,
     "timeYear": 311,
     "dailyMinutesDown": {
       "2025-12-05": 38,
@@ -970,7 +966,7 @@
     "time": 308,
     "timeDay": 138,
     "timeWeek": 275,
-    "timeMonth": 261,
+    "timeMonth": 268,
     "timeYear": 282,
     "dailyMinutesDown": {
       "2025-12-05": 16,
@@ -999,7 +995,7 @@
     "time": 313,
     "timeDay": 143,
     "timeWeek": 187,
-    "timeMonth": 247,
+    "timeMonth": 251,
     "timeYear": 289,
     "dailyMinutesDown": {
       "2025-12-05": 16,
@@ -1028,7 +1024,7 @@
     "time": 138,
     "timeDay": 106,
     "timeWeek": 125,
-    "timeMonth": 128,
+    "timeMonth": 127,
     "timeYear": 139,
     "dailyMinutesDown": {
       "2026-02-08": 349,
@@ -1041,11 +1037,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "server-tsinghua-vps",
     "status": "up",
-    "uptime": "79.78%",
+    "uptime": "79.79%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "39.42%",
-    "uptimeMonth": "8.18%",
-    "uptimeYear": "77.88%",
+    "uptimeWeek": "40.81%",
+    "uptimeMonth": "17.35%",
+    "uptimeYear": "77.91%",
     "time": 258,
     "timeDay": 329,
     "timeWeek": 258,
@@ -1154,8 +1150,7 @@
       "2025-03-20": 879,
       "2025-03-12": 157,
       "2025-03-03": 1000,
-      "2025-03-02": 1440,
-      "2025-03-01": 1440
+      "2025-03-02": 1440
     }
   }
 ]
