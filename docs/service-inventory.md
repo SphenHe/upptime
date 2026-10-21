@@ -2,16 +2,13 @@
 
 当前保留 **16 项**：12 项网站/服务观测、4 项服务器在线观测。
 
-## 网站与服务（12 项）
+## Service（9 项）
 
 | 观测项 | 检查内容 |
 | --- | --- |
 | HedgeDoc（compaq） | HTTP 页面 |
 | Pastebin / PasteShare | HTTP 页面 |
 | Vaultwarden（compaq） | HTTP 页面 |
-| Blog | HTTP 页面 |
-| MonkeyFile | HTTP 页面 |
-| TsinghuaMemes | HTTP 页面 |
 | IT Tools（compaq） | HTTP 页面 |
 | Grafana（隧道） | HTTP /api/health 和数据库状态 |
 | API Proxy（隧道） | HTTP 页面 |
@@ -19,7 +16,15 @@
 | RustDesk ID（compaq） | TCP 连通性 |
 | RustDesk Relay（compaq） | TCP 连通性 |
 
-## 服务器在线（4 项）
+## Pages（3 项）
+
+| 观测项 | 检查内容 |
+| --- | --- |
+| Blog | HTTP 页面 |
+| MonkeyFile | HTTP 页面 |
+| TsinghuaMemes | HTTP 页面 |
+
+## Server（4 项）
 
 | 观测项 | 检查内容 |
 | --- | --- |

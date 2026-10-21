@@ -18,28 +18,13 @@ secrets:
   - TSINGHUA_VPS_URL
 
 sites:
+  # Display order: Service -> Pages -> Server; preserve order within each group.
   - name: Service | HedgeDoc
     url: https://doc.sphenhe.me
   - name: Service | Pastebin
     url: https://pastebin.sphenhe.me
   - name: Service | Vaultwarden
     url: https://vault.sphenhe.me
-  - name: Pages | Blog
-    url: https://blog.sphenhe.me
-  - name: Pages | MonkeyFile
-    url: https://monkey.sphenhe.me
-  - name: Pages | TsinghuaMemes
-    url: https://memes.sphenhe.me
-  - name: Server | Azure-VPS
-    url: $AZURE_VPS_URL
-    port: $AZURE_VPS_SSH_PORT
-    check: "tcp-ping"
-  - name: Server | Tsinghua-VPS
-    url: $TSINGHUA_VPS_URL
-    port: $TSINGHUA_VPS_SSH_PORT
-    check: "tcp-ping"
-
-  # Public web URLs are literal; Qwen and server addresses/ports use secrets.
   - name: Service | IT Tools
     url: https://tools.sphenhe.me
     expectedStatusCodes: [200]
@@ -54,6 +39,32 @@ sites:
     url: $QWEN_HEALTH_URL
     expectedStatusCodes: [200]
     __dangerous__body_down_if_text_missing: OK
+  - name: Service | RustDesk ID
+    url: $COMPAQ_HOST
+    port: $RUSTDESK_ID_PORT
+    check: tcp-ping
+    connectTimeout: 10
+    requestTimeout: 10
+  - name: Service | RustDesk Relay
+    url: $COMPAQ_HOST
+    port: $RUSTDESK_RELAY_PORT
+    check: tcp-ping
+    connectTimeout: 10
+    requestTimeout: 10
+  - name: Pages | Blog
+    url: https://blog.sphenhe.me
+  - name: Pages | MonkeyFile
+    url: https://monkey.sphenhe.me
+  - name: Pages | TsinghuaMemes
+    url: https://memes.sphenhe.me
+  - name: Server | Azure-VPS
+    url: $AZURE_VPS_URL
+    port: $AZURE_VPS_SSH_PORT
+    check: "tcp-ping"
+  - name: Server | Tsinghua-VPS
+    url: $TSINGHUA_VPS_URL
+    port: $TSINGHUA_VPS_SSH_PORT
+    check: "tcp-ping"
   - name: Server | COMPAQ
     url: $COMPAQ_HOST
     port: $COMPAQ_SSH_PORT
@@ -68,18 +79,6 @@ sites:
     connectTimeout: 10
     requestTimeout: 10
     __dangerous__body_down_if_regex_missing: ^SSH-2\.0-
-  - name: Service | RustDesk ID
-    url: $COMPAQ_HOST
-    port: $RUSTDESK_ID_PORT
-    check: tcp-ping
-    connectTimeout: 10
-    requestTimeout: 10
-  - name: Service | RustDesk Relay
-    url: $COMPAQ_HOST
-    port: $RUSTDESK_RELAY_PORT
-    check: tcp-ping
-    connectTimeout: 10
-    requestTimeout: 10
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
