@@ -3,27 +3,31 @@ owner: SphenHe # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 # runner: "[self-hosted, Linux, X64]" # The type of runner you're using
 
+# Exact allowlist; GH_PAT is supplied separately by generated workflows.
+secrets:
+  - ALIYUN_HOST
+  - ALIYUN_SSH_PORT
+  - AZURE_VPS_SSH_PORT
+  - AZURE_VPS_URL
+  - COMPAQ_HOST
+  - COMPAQ_SSH_PORT
+  - QWEN_HEALTH_URL
+  - RUSTDESK_ID_PORT
+  - RUSTDESK_RELAY_PORT
+  - TSINGHUA_VPS_SSH_PORT
+  - TSINGHUA_VPS_URL
+
 sites:
-  - name: Service | Caddy
-    url: https://sphenhe.me
-  - name: Service | Deeplx
-    url: $DEEPLX_URL
   - name: Service | HedgeDoc
     url: https://doc.sphenhe.me
-  - name: Service | Fireflyiii
-    url: https://money.sphenhe.me
   - name: Service | Pastebin
     url: https://pastebin.sphenhe.me
-  - name: Service | Seafile
-    url: https://seafile.sphenhe.me
   - name: Service | Vaultwarden
     url: https://vault.sphenhe.me
   - name: Pages | Blog
     url: https://blog.sphenhe.me
   - name: Pages | MonkeyFile
     url: https://monkey.sphenhe.me
-  - name: Pages | Nuclear21Public-Magazine
-    url: https://magazine.sphenhe.me
   - name: Pages | TsinghuaMemes
     url: https://memes.sphenhe.me
   - name: Server | Azure-VPS
@@ -34,6 +38,48 @@ sites:
     url: $TSINGHUA_VPS_URL
     port: $TSINGHUA_VPS_SSH_PORT
     check: "tcp-ping"
+
+  # Public web URLs are literal; Qwen and server addresses/ports use secrets.
+  - name: Service | IT Tools
+    url: https://tools.sphenhe.me
+    expectedStatusCodes: [200]
+  - name: Service | Grafana
+    url: https://grafana.sphenhe.me/api/health
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_regex_missing: '"database"\s*:\s*"ok"'
+  - name: Service | API Proxy
+    url: https://proxyapi.sphenhe.me
+    expectedStatusCodes: [200]
+  - name: Service | Qwen Gateway
+    url: $QWEN_HEALTH_URL
+    expectedStatusCodes: [200]
+    __dangerous__body_down_if_text_missing: OK
+  - name: Server | COMPAQ
+    url: $COMPAQ_HOST
+    port: $COMPAQ_SSH_PORT
+    check: tcp
+    connectTimeout: 10
+    requestTimeout: 10
+    __dangerous__body_down_if_regex_missing: ^SSH-2\.0-
+  - name: Server | ALIYUN
+    url: $ALIYUN_HOST
+    port: $ALIYUN_SSH_PORT
+    check: tcp
+    connectTimeout: 10
+    requestTimeout: 10
+    __dangerous__body_down_if_regex_missing: ^SSH-2\.0-
+  - name: Service | RustDesk ID
+    url: $COMPAQ_HOST
+    port: $RUSTDESK_ID_PORT
+    check: tcp-ping
+    connectTimeout: 10
+    requestTimeout: 10
+  - name: Service | RustDesk Relay
+    url: $COMPAQ_HOST
+    port: $RUSTDESK_RELAY_PORT
+    check: tcp-ping
+    connectTimeout: 10
+    requestTimeout: 10
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
