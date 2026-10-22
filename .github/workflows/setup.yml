@@ -6,7 +6,7 @@
 # Your changes will be overwritten when the Upptime template updates (by default, weekly)
 # Instead, change .upptimerc.yml configuration and the workflows will be generated accordingly.
 #
-# 🔼 Upptime @v1.46.2
+# 🔼 Upptime @v1.46.3
 # GitHub-powered open-source uptime monitor and status page by Anand Chowdhary
 
 # * Source: https://github.com/upptime/upptime
@@ -49,13 +49,13 @@ jobs:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
       - name: Update template
-        uses: upptime/uptime-monitor@v1.46.2
+        uses: upptime/uptime-monitor@v1.46.3
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
       - name: Update response time
-        uses: upptime/uptime-monitor@v1.46.2
+        uses: upptime/uptime-monitor@v1.46.3
         with:
           command: "response-time"
         env:
@@ -63,7 +63,7 @@ jobs:
           # Configure the secret allowlist in .upptimerc.yml; do not edit this workflow directly.
           SECRETS_CONTEXT: '{"ALIYUN_HOST":${{ toJson(secrets.ALIYUN_HOST) }},"ALIYUN_SSH_PORT":${{ toJson(secrets.ALIYUN_SSH_PORT) }},"AZURE_VPS_SSH_PORT":${{ toJson(secrets.AZURE_VPS_SSH_PORT) }},"AZURE_VPS_URL":${{ toJson(secrets.AZURE_VPS_URL) }},"COMPAQ_HOST":${{ toJson(secrets.COMPAQ_HOST) }},"COMPAQ_SSH_PORT":${{ toJson(secrets.COMPAQ_SSH_PORT) }},"QWEN_HEALTH_URL":${{ toJson(secrets.QWEN_HEALTH_URL) }},"RUSTDESK_ID_PORT":${{ toJson(secrets.RUSTDESK_ID_PORT) }},"RUSTDESK_RELAY_PORT":${{ toJson(secrets.RUSTDESK_RELAY_PORT) }},"TSINGHUA_VPS_SSH_PORT":${{ toJson(secrets.TSINGHUA_VPS_SSH_PORT) }},"TSINGHUA_VPS_URL":${{ toJson(secrets.TSINGHUA_VPS_URL) }}}'
       - name: Update summary in README
-        uses: upptime/uptime-monitor@v1.46.2
+        uses: upptime/uptime-monitor@v1.46.3
         with:
           command: "readme"
         env:
@@ -82,13 +82,13 @@ jobs:
           node-version: "20"
       - name: Generate graphs directly if dispatch fails
         if: steps.dispatch_graphs.outcome == 'failure'
-        uses: upptime/uptime-monitor@v1.46.2
+        uses: upptime/uptime-monitor@v1.46.3
         with:
           command: "graphs"
         env:
           GH_PAT: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
       - name: Generate site
-        uses: upptime/uptime-monitor@v1.46.2
+        uses: upptime/uptime-monitor@v1.46.3
         with:
           command: "site"
         env:
