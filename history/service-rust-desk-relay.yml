@@ -1,7 +1,7 @@
 url: $COMPAQ_HOST
-status: up
-code: 200
-responseTime: 318
-lastUpdated: 2026-11-12T03:38:06.383Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2026-11-12T11:45:00.209Z
 startTime: 2026-10-21T06:54:16.426Z
 generator: Upptime <https://github.com/upptime/upptime>
